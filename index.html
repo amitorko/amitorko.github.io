@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amith Kumar Das Orko</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Georgia, "Times New Roman", serif;
+            background: #f7f5f2;
+            color: #263238;
+            line-height: 1.7;
+        }
+
+        nav {
+            background: #e9eef3;
+            border-bottom: 1px solid #d7dde2;
+            padding: 16px 30px;
+        }
+
+        .nav-container {
+            max-width: 900px;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .nav-name {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #2f4858;
+        }
+
+        nav a {
+            color: #4b626d;
+            text-decoration: none;
+            margin-left: 20px;
+            font-family: Arial, sans-serif;
+            font-size: 0.9rem;
+        }
+
+        nav a:hover {
+            color: #1f3742;
+        }
+
+        main {
+            max-width: 900px;
+            margin: auto;
+            padding: 60px 30px;
+        }
+
+        header {
+            margin-bottom: 55px;
+        }
+
+        header h1 {
+            font-size: 2.7rem;
+            margin-bottom: 8px;
+            color: #2f4858;
+        }
+
+        header p {
+            font-size: 1.15rem;
+            color: #5f6f76;
+        }
+
+        section {
+            margin-bottom: 55px;
+        }
+
+        h2 {
+            color: #2f4858;
+            border-bottom: 2px solid #cbd6dc;
+            padding-bottom: 8px;
+            margin-bottom: 20px;
+        }
+
+        h3 {
+            color: #405b68;
+            margin-bottom: 5px;
+        }
+
+        .card {
+            background: white;
+            padding: 24px;
+            border-radius: 8px;
+            border: 1px solid #e1e4e6;
+            margin-bottom: 18px;
+        }
+
+        .skills span {
+            display: inline-block;
+            background: #e8eef1;
+            color: #405b68;
+            padding: 6px 10px;
+            margin: 4px;
+            border-radius: 4px;
+            font-family: Arial, sans-serif;
+            font-size: 0.85rem;
+        }
+
+        .button {
+            display: inline-block;
+            margin-top: 12px;
+            margin-right: 10px;
+            padding: 9px 14px;
+            background: #5f7c8a;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            font-family: Arial, sans-serif;
+        }
+
+        .button:hover {
+            background: #48626e;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            background: #e9eef3;
+            color: #607078;
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 700px) {
+            .nav-container {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            nav a {
+                margin: 0 8px;
+            }
+
+            header h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<nav>
+    <div class="nav-container">
+        <div class="nav-name">Amith Kumar Das Orko</div>
+
+        <div>
+            <a href="#about">About</a>
+            <a href="#background">Background</a>
+            <a href="#project">Project</a>
+        </div>
+    </div>
+</nav>
+
+<main>
+
+    <header>
+        <h1>Amith Kumar Das Orko</h1>
+        <p>
+            Master's Student in Applied Computer Science<br>
+            Grand Valley State University
+        </p>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+
+        <p>
+            I am currently pursuing a Master's degree in Applied Computer
+            Science at Grand Valley State University. I previously earned
+            a Bachelor's degree in Software Engineering from Carleton University.
+        </p>
+
+        <p>
+            My interests include software development, machine learning,
+            backend systems, databases, and cloud technologies.
+        </p>
+    </section>
+
+
+    <section id="background">
+        <h2>Technical Background</h2>
+
+        <p>
+            I have experience working with Java, Kotlin, Python, SQL,
+            backend application development, databases, REST APIs,
+            automated testing, and cloud technologies.
+        </p>
+
+        <div class="skills">
+            <span>Java</span>
+            <span>Kotlin</span>
+            <span>Python</span>
+            <span>SQL</span>
+            <span>Spring Boot</span>
+            <span>PostgreSQL</span>
+            <span>MySQL</span>
+            <span>Docker</span>
+            <span>Kubernetes</span>
+            <span>Git</span>
+            <span>AWS</span>
+        </div>
+    </section>
+
+
+    <section id="project">
+        <h2>CIS 641 Term Project</h2>
+
+        <div class="card">
+            <h3>Library Study Room Reservation System</h3>
+
+            <p>
+                For CIS 641, I am working with a team to develop a web-based
+                study room reservation system for a university library.
+            </p>
+
+            <p>
+                The system is designed to make it easier for students to find
+                available study rooms, create reservations, cancel reservations,
+                and check in using a reservation code.
+            </p>
+
+            <p>
+                The project uses Python and Streamlit for the application
+                interface and a database for managing users, rooms, and
+                reservation information.
+            </p>
+
+            <p>
+                Through this project, I am gaining practical experience with
+                requirements analysis, object-oriented design, software modeling,
+                database integration, GitHub, and collaborative development.
+            </p>
+
+            <a class="button"
+               href="#"
+               target="_blank">
+                Team Website
+            </a>
+
+            <a class="button"
+               href="#"
+               target="_blank">
+                Project Repository
+            </a>
+        </div>
+    </section>
+
+</main>
+
+<footer>
+    © 2026 Amith Kumar Das Orko
+</footer>
+
+</body>
+</html>
